@@ -16,21 +16,21 @@ export default function Announcements() {
 
       <div className="w-full max-w-4xl">
         <AnnouncementItem
-          date="2026.08.10"
-          category="イベント"
-          title="島田市緑茶化計画のイベントを開催します"
-        />
-
-        <AnnouncementItem
-          date="2026.08.01"
-          category="ニュース"
-          title="新しい緑茶体験コンテンツを公開しました"
-        />
-
-        <AnnouncementItem
-          date="2026.07.25"
+          date="2026.08.15"
           category="お知らせ"
-          title="ホームページをリニューアルしました"
+          title="島田市緑茶化計画の公式SNSアカウントを開設しました。"
+        />
+
+        <AnnouncementItem
+          date="2026.08.15"
+          category="お知らせ"
+          title="島田市緑茶化計画の公式ECサイトがオープンしました。"
+        />
+
+        <AnnouncementItem
+          date="2026.08.15"
+          category="お知らせ"
+          title="島田市緑茶化計画の公式ホームページをリニューアルしました。"
         />
 
         <div className="mt-6 pr-4 w-full flex justify-end">
@@ -39,7 +39,7 @@ export default function Announcements() {
             className="group inline-flex items-center gap-2 text-md text-[#006500] transition-colors duration-300 hover:text-[#006500]"
           >
             過去のお知らせ
-            <span className="transition-transform duration-300 group-hover:translate-x-1">
+            <span className="text-xl pr-2 transition-transform duration-300 group-hover:translate-x-1">
               →
             </span>
           </a>

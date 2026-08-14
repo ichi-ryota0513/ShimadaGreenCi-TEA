@@ -4,8 +4,8 @@ export default function AnnouncementItem({
   title,
 }) {
   return (
-    <article className="group w-full border-b border-[#006500]/20 py-5">
-      <div className="flex items-center gap-4 text-left">
+    <article className="group w-full border-b border-[#006500]/20 py-5 hover:bg-[#f5faf5]/50">
+      <div className="flex items-center gap-4 text-left px-4">
         <time className="text-sm text-[#006500]/60">
           {date}
         </time>
@@ -18,7 +18,7 @@ export default function AnnouncementItem({
           {title}
         </h3>
 
-        <span className="mr-4 text-[#006500] text-xl transition-transform duration-300 group-hover:translate-x-2">
+        <span className="mr-2 text-[#006500] text-xl transition-transform duration-300 group-hover:translate-x-2">
           →
         </span>
       </div>
