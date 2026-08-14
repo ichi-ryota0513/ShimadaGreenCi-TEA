@@ -4,13 +4,13 @@ export default function Announcements() {
   return (
     <section
       id="announcements"
-      className="bg-[#ffffff] pt-16 pb-20 px-4 md:px-8 flex flex-col items-center text-center w-full scroll-mt-20"
+      className="bg-[#ffffff] w-full scroll-mt-20 px-4 py-12 text-center md:px-8 md:py-16"
     >
-      <h2 className="text-[#006500] text-2xl font-bold mb-2">
+      <h2 className="mb-2 text-xl font-bold text-[#006500] md:text-2xl">
         お知らせ
       </h2>
 
-      <p className="text-[#006500]/70 text-lg font-semibold mb-8">
+      <p className="mb-8 text-base font-semibold text-[#006500]/70 md:text-lg">
         - ANNOUNCEMENTS -
       </p>
 
@@ -19,18 +19,21 @@ export default function Announcements() {
           date="2026.08.15"
           category="お知らせ"
           title="島田市緑茶化計画の公式SNSアカウントを開設しました。"
+          href="/"
         />
 
         <AnnouncementItem
           date="2026.08.15"
           category="お知らせ"
           title="島田市緑茶化計画の公式ECサイトがオープンしました。"
+          href="/"
         />
 
         <AnnouncementItem
           date="2026.08.15"
           category="お知らせ"
           title="島田市緑茶化計画の公式ホームページをリニューアルしました。"
+          href="/"
         />
 
         <div className="mt-6 pr-4 w-full flex justify-end">
