@@ -23,7 +23,7 @@ export default function ExperienceCard({
       />
 
       <div className="p-6 flex flex-col h-full">
-        <h3 className="text-[#006500] text-2xl font-bold mb-4">
+        <h3 className="mb-4 text-xl font-bold text-[#006500] md:text-2xl">
           {title}
         </h3>
 

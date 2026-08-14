@@ -4,7 +4,7 @@ export default function Announcements() {
   return (
     <section
       id="announcements"
-      className="bg-[#ffffff] w-full scroll-mt-20 px-4 py-12 text-center md:px-8 md:py-16"
+      className="w-full scroll-mt-20 bg-[#ffffff] px-6 py-12 text-center sm:px-8 md:px-12 md:py-16"
     >
       <h2 className="mb-2 text-xl font-bold text-[#006500] md:text-2xl">
         お知らせ
@@ -14,7 +14,7 @@ export default function Announcements() {
         - ANNOUNCEMENTS -
       </p>
 
-      <div className="w-full max-w-4xl">
+      <div className="mx-auto w-full max-w-4xl">
         <AnnouncementItem
           date="2026.08.15"
           category="お知らせ"

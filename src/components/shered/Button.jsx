@@ -20,7 +20,7 @@ export default function Button({
     <a
       href={href}
       className={`
-        group flex ${width} items-center justify-center gap-3
+        group flex ${width} max-w-full items-center justify-center gap-3
         mx-auto py-3
         rounded-none
         transition-all duration-300

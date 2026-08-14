@@ -8,12 +8,12 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="bg-[#ffffff] pt-16 pb-20 px-4 md:px-8 flex flex-col items-center text-center w-full scroll-mt-20"
+      className="flex w-full scroll-mt-20 flex-col items-center bg-[#ffffff] px-6 py-12 text-center sm:px-8 md:px-12 md:py-16"
     >
-      <h2 className="text-[#006500] text-4xl font-bold mb-2">
+      <h2 className="mb-2 text-2xl font-bold text-[#006500] md:text-4xl">
         緑茶を体験する
       </h2>
-      <p className="text-[#006500]/70 text-2xl font-semibold mb-16">
+      <p className="mb-10 text-lg font-semibold text-[#006500]/70 md:mb-16 md:text-2xl">
         - EXPERIENCE -
       </p>
 
