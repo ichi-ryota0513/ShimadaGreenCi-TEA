@@ -105,7 +105,7 @@ export default function Hero() {
         : current - 1;
 
   return (
-    <section className="relative w-full overflow-hidden px-12">
+    <section className="relative aspect-[16/9] w-full overflow-hidden px-2 sm:px-4 md:aspect-[1600/774] md:px-12">
       {/* スライド */}
       <div
         className={`flex h-full ${
@@ -134,10 +134,10 @@ export default function Hero() {
       </div>
       
       {/* 左グラデーション */}
-      <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-[#f9fdf9]/40 to-transparent" />
+      <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-12 bg-gradient-to-r from-[#f9fdf9]/40 to-transparent sm:w-16 md:w-24" />
 
       {/* 右グラデーション */}
-      <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-[#f9fdf9]/40 to-transparent" />
+      <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-12 bg-gradient-to-l from-[#f9fdf9]/40 to-transparent sm:w-16 md:w-24" />
 
       {/* 左ボタン */}
       <button
@@ -145,9 +145,9 @@ export default function Hero() {
         disabled={isMoving}
         aria-label="前の画像へ"
         className="
-          absolute left-6 top-1/2 z-20
-          flex h-12 w-12
-          -translate-y-10
+          absolute left-2 top-1/2 z-20
+          flex h-9 w-9
+          -translate-y-1/2
           items-center justify-center
           rounded-full
           bg-black/40
@@ -158,6 +158,7 @@ export default function Hero() {
           hover:scale-110
           hover:bg-[#3A8A43]/40
           active:scale-95
+          sm:left-4 sm:h-10 sm:w-10 md:left-6 md:h-12 md:w-12
         "
       >
         <svg
@@ -166,7 +167,7 @@ export default function Hero() {
           viewBox="0 0 24 24"
           strokeWidth={2}
           stroke="currentColor"
-          className="h-6 w-6"
+          className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6"
         >
           <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
         </svg>
@@ -178,9 +179,9 @@ export default function Hero() {
         disabled={isMoving}
         aria-label="次の画像へ"
         className="
-          absolute right-6 top-1/2 z-20
-          flex h-12 w-12
-          -translate-y-10
+          absolute right-2 top-1/2 z-20
+          flex h-9 w-9
+          -translate-y-1/2
           items-center justify-center
           rounded-full
           bg-black/40
@@ -191,6 +192,7 @@ export default function Hero() {
           hover:scale-110
           hover:bg-[#3A8A43]/40
           active:scale-95
+          sm:right-4 sm:h-10 sm:w-10 md:right-6 md:h-12 md:w-12
         "
       >
         <svg
@@ -199,7 +201,7 @@ export default function Hero() {
           viewBox="0 0 24 24"
           strokeWidth={2}
           stroke="currentColor"
-          className="h-6 w-6"
+          className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6"
         >
           <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
         </svg>
@@ -207,8 +209,9 @@ export default function Hero() {
 
       {/* インジケーター */}
       <div className="
-        absolute bottom-6 left-1/2 z-20
-        flex -translate-x-1/2 gap-2
+        absolute bottom-2 left-1/2 z-20
+        flex -translate-x-1/2 items-center gap-1
+        sm:bottom-4 sm:gap-2 md:bottom-6
       ">
         {slides.map((_, index) => (
           <button
@@ -221,12 +224,13 @@ export default function Hero() {
             }}
             aria-label={`${index + 1}枚目へ`}
             className={`
-              h-1
+              flex h-6 items-center px-1
+              after:block after:h-1
               transition-all duration-300
               ${
                 index === activeIndex
-                  ? "w-10 bg-white"
-                  : "w-5 bg-white/40 hover:bg-white/70"
+                  ? "after:w-8 after:bg-white sm:after:w-10"
+                  : "after:w-4 after:bg-white/40 hover:after:bg-white/70 sm:after:w-5"
               }
             `}
           />
