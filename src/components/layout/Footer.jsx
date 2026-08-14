@@ -13,7 +13,7 @@ export default function Footer() {
 
         <p className="text-md">
           島田市市長戦略部広報プロモーション課シティプロモーション・移住促進担当<br />
-          島田市中央町1-1　TEL：0547-36-7355　FAX：0547-34-1425
+          島田市中央町1-1 TEL：0547-36-7355 FAX：0547-34-1425
         </p>
       </footer>
       <div className="bg-green-800 text-white text-center pt-8 pb-2 w-full">
