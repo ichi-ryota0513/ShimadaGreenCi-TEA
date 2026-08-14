@@ -3,23 +3,24 @@ import mainVisual from "../../assets/hero/mainvisual.jpg";
 import slideGreenTea01 from "../../assets/hero/slide_green_tea_01.jpg";
 import slideGreenTea02 from "../../assets/hero/slide_green_tea_02.jpg";
 import slideGreenTea03 from "../../assets/hero/slide_green_tea_03.jpg";
+import { HOME_URL } from "../../utils/site";
 
 const slides = [
   {
     image: mainVisual,
-    link: "/",
+    link: HOME_URL,
   },
   {
     image: slideGreenTea01,
-    link: "/",
+    link: HOME_URL,
   },
   {
     image: slideGreenTea03,
-    link: "/",
+    link: HOME_URL,
   },
   {
     image: slideGreenTea02,
-    link: "/",
+    link: HOME_URL,
   },
 ];
 

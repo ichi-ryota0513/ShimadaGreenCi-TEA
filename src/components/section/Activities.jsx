@@ -3,6 +3,7 @@ import Card from "../shered/Card"
 import ryokuchapost from "../../assets/activities/ryokuchapost.jpg"
 import station from "../../assets/activities/station.jpeg"
 import gakkouyuugu from "../../assets/activities/gakkouyuugu.jpg"
+import { HOME_URL } from "../../utils/site"
 
 export default function Activities() {
   return (
@@ -44,7 +45,7 @@ export default function Activities() {
       </div>
 
       <Button
-        href="/"
+        href={HOME_URL}
         width="w-50 sm:w-80"
         variant="primary"
       >

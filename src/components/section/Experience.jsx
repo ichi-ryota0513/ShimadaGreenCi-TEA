@@ -3,6 +3,7 @@ import Card from "../shered/Card"
 import experience1 from "../../assets/experience/experience1.png"
 import experience2 from "../../assets/experience/experience2.jpg"
 import experience3 from "../../assets/experience/experience3.jpg"
+import { HOME_URL } from "../../utils/site"
 
 export default function Experience() {
   return (
@@ -41,7 +42,7 @@ export default function Experience() {
       </div>
 
       <Button
-        href="/"
+        href={HOME_URL}
         width="w-50 sm:w-80"
         variant="primary"
       >

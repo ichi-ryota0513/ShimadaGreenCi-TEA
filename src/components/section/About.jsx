@@ -1,6 +1,7 @@
 import Button from "../shered/Button"
 import iconWhite from "../../assets/logo/icon_white.png"
 import iconGreen from "../../assets/logo/icon_green.jpg"
+import { HOME_URL } from "../../utils/site"
 
 export default function About() {
   return (
@@ -35,7 +36,7 @@ export default function About() {
       </p>
 
       <Button
-        href="/"
+        href={HOME_URL}
         width="w-50 sm:w-80"
         variant="primary"
       >

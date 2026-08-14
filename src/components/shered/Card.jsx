@@ -1,10 +1,11 @@
 import Button from "./Button"
+import { HOME_URL } from "../../utils/site"
 
 export default function ExperienceCard({
   image,
   title,
   description,
-  href = "/",
+  href = HOME_URL,
   aspectRatio = "4/3",
   buttonText = "この記事を見る",
 }) {

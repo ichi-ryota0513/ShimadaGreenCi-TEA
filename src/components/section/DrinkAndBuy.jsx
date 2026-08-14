@@ -3,6 +3,7 @@ import Card from "../shered/Card"
 import greenCiTea from "../../assets/drink-and-buy/green-ci-tea.jpg"
 import chaCola from "../../assets/drink-and-buy/cha-cola.jpg"
 import chaponika from "../../assets/drink-and-buy/chaponika.jpg"
+import { HOME_URL } from "../../utils/site"
 
 export default function DrinkAndBuy() {
   return (
@@ -59,7 +60,7 @@ export default function DrinkAndBuy() {
       </div>
 
       <Button
-        href="/"
+        href={HOME_URL}
         width="w-50 sm:w-80"
         variant="primary"
       >

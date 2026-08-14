@@ -1,4 +1,5 @@
 import AnnouncementItem from "../shered/AnnouncementItem"
+import { HOME_URL } from "../../utils/site"
 
 export default function Announcements() {
   return (
@@ -19,26 +20,26 @@ export default function Announcements() {
           date="2026.08.15"
           category="お知らせ"
           title="島田市緑茶化計画の公式SNSアカウントを開設しました。"
-          href="/"
+          href={HOME_URL}
         />
 
         <AnnouncementItem
           date="2026.08.15"
           category="お知らせ"
           title="島田市緑茶化計画の公式ECサイトがオープンしました。"
-          href="/"
+          href={HOME_URL}
         />
 
         <AnnouncementItem
           date="2026.08.15"
           category="お知らせ"
           title="島田市緑茶化計画の公式ホームページをリニューアルしました。"
-          href="/"
+          href={HOME_URL}
         />
 
         <div className="mt-4 sm:mt-6 pr-4 w-full flex justify-end">
           <a
-            href="/"
+            href={HOME_URL}
             className="group inline-flex items-center gap-2 text-md text-[#006500] transition-colors duration-300 hover:text-[#006500]"
           >
             過去のお知らせ

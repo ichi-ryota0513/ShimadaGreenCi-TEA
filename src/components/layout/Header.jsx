@@ -1,6 +1,7 @@
 import { useState } from "react"
 import Navigation from "../shered/Navigation"
 import logo from "../../assets/logo/logo.png"
+import { HOME_URL } from "../../utils/site"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -10,7 +11,7 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-4 sm:px-8 h-16 md:h-20 flex items-center justify-between">
         {/* Logo */}
         <div className="text-white font-bold tracking-wide text-xl md:text-2xl">
-          <a href="/">
+          <a href={HOME_URL}>
             <img src={logo} alt="Logo" className="h-6 md:h-8" />
           </a>
         </div>

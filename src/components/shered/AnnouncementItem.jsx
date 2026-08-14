@@ -1,8 +1,10 @@
+import { HOME_URL } from "../../utils/site"
+
 export default function AnnouncementItem({
   date,
   category,
   title,
-  href = "/",
+  href = HOME_URL,
 }) {
   return (
     <article className="w-full border-b border-[#006500]/20">
