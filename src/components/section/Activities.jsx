@@ -1,5 +1,8 @@
 import Button from "../shered/Button"
 import Card from "../shered/Card"
+import ryokuchapost from "../../assets/activities/ryokuchapost.jpg"
+import station from "../../assets/activities/station.jpeg"
+import gakkouyuugu from "../../assets/activities/gakkouyuugu.jpg"
 
 export default function Activities() {
   return (
@@ -17,7 +20,7 @@ export default function Activities() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl mb-16">
         {/* カード1 */}
         <Card
-          image="/activities/ryokuchapost.jpg"
+          image={ryokuchapost}
           title="郵便ポストを緑茶化！"
           description="市役所前の郵便ポストを緑茶色（緑茶グリーン）に模様替えしました！"
           aspectRatio="1/1"
@@ -25,7 +28,7 @@ export default function Activities() {
 
         {/* カード2 */}
         <Card
-          image="/activities/station.jpeg"
+          image={station}
           title="島田駅を緑茶化！"
           description="JR島田駅の約80mのガラス面が、島田市緑茶化計画により華やかになりました！"
           aspectRatio="1/1"
@@ -33,7 +36,7 @@ export default function Activities() {
 
         {/* カード3 */}
         <Card
-          image="/activities/gakkouyuugu.jpg"
+          image={gakkouyuugu}
           title="学校の遊具を緑茶化！"
           description="島田第一小学校の遊具などを緑茶色に塗装する奉仕活動を行いました！"
           aspectRatio="1/1"

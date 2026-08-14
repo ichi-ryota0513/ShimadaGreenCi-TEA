@@ -1,4 +1,6 @@
 import Button from "../shered/Button"
+import iconWhite from "../../assets/logo/icon_white.png"
+import iconGreen from "../../assets/logo/icon_green.jpg"
 
 export default function About() {
   return (
@@ -15,12 +17,12 @@ export default function About() {
 
       <div className="flex flex-col md:flex-row items-center justify-center gap-12 mb-8">
         <img
-          src="/logo/icon_white.png"
+          src={iconWhite}
           alt="logo"
           className="w-72 h-72 object-contain mb-8 border-2 border-[#3A8A43]"
         />
         <img
-          src="/logo/icon_green.jpg"
+          src={iconGreen}
           alt="logo"
           className="w-72 h-72 object-contain mb-8 border-2 border-[#3A8A43]"
         />

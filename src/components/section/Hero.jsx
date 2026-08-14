@@ -1,20 +1,24 @@
 import { useEffect, useRef, useState } from "react";
+import mainVisual from "../../assets/hero/mainvisual.jpg";
+import slideGreenTea01 from "../../assets/hero/slide_green_tea_01.jpg";
+import slideGreenTea02 from "../../assets/hero/slide_green_tea_02.jpg";
+import slideGreenTea03 from "../../assets/hero/slide_green_tea_03.jpg";
 
 const slides = [
   {
-    image: "/hero/mainvisual.jpg",
+    image: mainVisual,
     link: "/",
   },
   {
-    image: "/hero/slide_green_tea_01.jpg",
+    image: slideGreenTea01,
     link: "/",
   },
   {
-    image: "/hero/slide_green_tea_03.jpg",
+    image: slideGreenTea03,
     link: "/",
   },
   {
-    image: "/hero/slide_green_tea_02.jpg",
+    image: slideGreenTea02,
     link: "/",
   },
 ];

@@ -1,4 +1,3 @@
-import Button from "../shered/Button"
 import AnnouncementItem from "../shered/AnnouncementItem"
 
 export default function Announcements() {

@@ -1,4 +1,4 @@
-import Navigation from "../shered/Navigation"
+import logo from "../../assets/logo/logo.png"
 
 export default function Footer() {
   return (
@@ -6,7 +6,7 @@ export default function Footer() {
       <footer className="bg-[#3A8A43] text-white py-12 mt-8 text-center flex flex-col items-center">
 
         <img
-          src="/logo/logo.png"
+          src={logo}
           alt="Logo"
           className="h-10 mx-auto mb-8"
         />

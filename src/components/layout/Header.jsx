@@ -1,4 +1,5 @@
 import Navigation from "../shered/Navigation"
+import logo from "../../assets/logo/logo.png"
 
 export default function Header() {
   return (
@@ -7,7 +8,7 @@ export default function Header() {
         {/* Logo */}
         <div className="text-white font-bold tracking-wide text-xl md:text-2xl text-center">
           <a href="/">
-            <img src="/logo/logo.png" alt="Logo" className="h-8 mx-auto" />
+            <img src={logo} alt="Logo" className="h-8 mx-auto" />
           </a>
         </div>
 
