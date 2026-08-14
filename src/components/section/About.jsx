@@ -36,7 +36,7 @@ export default function About() {
 
       <Button
         href="/"
-        width="w-full max-w-80"
+        width="w-50 sm:w-80"
         variant="primary"
       >
         詳しくはこちら

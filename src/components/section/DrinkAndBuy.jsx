@@ -43,7 +43,10 @@ export default function DrinkAndBuy() {
         />
       </div>
 
-      <Button href="/" width="w-80">
+      <Button
+        href="/"
+        width="w-50 sm:w-80"
+      >
         And More
       </Button>
     </section>

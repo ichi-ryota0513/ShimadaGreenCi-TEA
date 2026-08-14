@@ -32,7 +32,7 @@ export default function ExperienceCard({
         </p>
 
         <div className="mt-auto">
-          <Button href={href} width="w-60">
+          <Button href={href} width="w-50 sm:w-60">
             {buttonText}
           </Button>
         </div>

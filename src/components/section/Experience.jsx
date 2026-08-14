@@ -40,7 +40,10 @@ export default function Experience() {
         />
       </div>
 
-      <Button href="/" width="w-80">
+      <Button
+        href="/"
+        width="w-50 sm:w-80"
+      >
         And More
       </Button>
     </section>

@@ -20,8 +20,9 @@ export default function Button({
     <a
       href={href}
       className={`
-        group flex ${width} max-w-full items-center justify-center gap-3
-        mx-auto py-3
+        group flex ${width} max-w-full items-center justify-center gap-2
+        mx-auto px-4 py-1.5 text-sm leading-6
+        sm:gap-3 sm:px-6 sm:py-3 sm:text-base
         rounded-none
         transition-all duration-300
         ${variantClasses[variant]}
@@ -30,7 +31,7 @@ export default function Button({
     >
       <span>{children}</span>
 
-      <span className="transition-transform duration-300 group-hover:translate-x-2">
+      <span className="text-lg transition-transform duration-300 group-hover:translate-x-2 sm:text-xl">
         →
       </span>
     </a>
