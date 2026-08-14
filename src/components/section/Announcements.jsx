@@ -36,7 +36,7 @@ export default function Announcements() {
           href="/"
         />
 
-        <div className="mt-6 pr-4 w-full flex justify-end">
+        <div className="mt-4 sm:mt-6 pr-4 w-full flex justify-end">
           <a
             href="/"
             className="group inline-flex items-center gap-2 text-md text-[#006500] transition-colors duration-300 hover:text-[#006500]"

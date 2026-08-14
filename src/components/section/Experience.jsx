@@ -17,7 +17,7 @@ export default function Experience() {
         - EXPERIENCE -
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl mb-16">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl mb-10 sm:mb-16">
         {/* カード1 */}
         <Card
           image={experience1}
@@ -43,6 +43,7 @@ export default function Experience() {
       <Button
         href="/"
         width="w-50 sm:w-80"
+        variant="primary"
       >
         And More
       </Button>
